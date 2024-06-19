@@ -7,23 +7,23 @@ def home():
     return render_template('index.html')
 
 @app.route('/admin')
-def about():
+def admin():
     return render_template('admin.html')
 
 @app.route('/config')
-def about():
+def config():
     return render_template('config.html')
 
 @app.route('/in_Boot')
-def about():
+def in_Boot():
     return render_template('in_Boot.html')
 
 @app.route('/joining')
-def about():
+def joining():
     return render_template('joining.html')
 
 @app.route('/playground')
-def about():
+def playground():
     return render_template('playground.html')
 
 
